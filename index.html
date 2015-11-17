@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <img src ="img/Arduino_Diecimila2.jpg" height="200"/>
+  <title>Arduino</title>
+  <h1>Qu'est ce qu'Arduino?</h1>
+  <div>
+    <p>Le système Arduino est un outil pour fabriquer de petits ordinateurs qui peuvent capter et contrôler davantage de choses du monde matériel que votre ordinateur de bureau. C'est une plateforme open-source d'électronique programmée qui est basée sur une simple carte à microcontrôleur (de la famille AVR), et un logiciel, véritable environnement de développement intégré, pour écrire, compiler et transférer le programme vers la carte à microcontrôleur.</p>
+    <a href="https://www.arduino.cc/">Site référence</a>
+  </div>
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Arduino_Diecimila.jpg" height="250px"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Schema_arduino.png" height="250px"/>
+    <div>
+      <div>
+        <h2>Présentation</h2>
+        <p>Arduino peut être utilisé pour développer des objets interactifs, pouvant recevoir des entrées d'une grande variété d'interrupteurs ou de capteurs, et pouvant contrôler une grande variété de lumières, moteurs ou toutes autres sorties matérielles. Les projets Arduino peuvent être autonomes, ou bien ils peuvent communiquer avec des logiciels tournant sur votre ordinateur (tels que Flash, Processing ou MaxMSP). Les cartes électroniques peuvent être fabriquées manuellement ou bien être achetées pré-assemblées; le logiciel de développement open-source peut être téléchargé gratuitement.
+        </p>
+        <p>
+        Arduino est un circuit imprimé en matériel libre sur lequel se trouve un microcontrôleur. Les plans de la carte elle-même sont publiés en licence libre, cependant, certains composants de la carte, comme le microcontrôleur par exemple, ne sont pas en licence libre. Le microcontrôleur peut être programmé pour analyser et produire des signaux électriques, de manière à effectuer des tâches très diverses comme la domotique (le contrôle des appareils domestiques - éclairage, chauffage…), le pilotage d'un robot, etc. C'est une plateforme basée sur une interface entrée/sortie simple. Il était destiné à l'origine principalement mais pas exclusivement à la programmation multimédia interactive en vue de spectacle ou d'animations artistiques. C'est une partie de l'explication de la descendance de son interface de programmation de Processing, lui-même inspiré de l'environnement de programmation Wiring1.
+
+        Arduino peut être utilisé pour construire des objets interactifs indépendants (prototypage rapide), ou bien peut être connecté à un ordinateur pour communiquer avec ses logiciels (ex. : Macromedia Flash, Processing, Max/MSP, Usine Hollyhock, Pure Data, SuperCollider).
+        </p>
+        <h2>Matériel</h2>
+        <p>Un module Arduino est généralement construit autour d'un microcontrôleur Atmel AVR (ATmega328 ou ATmega2560 pour les versions récentes, ATmega168 ou ATmega8 pour les plus anciennes), et de composants complémentaires qui facilitent la programmation et l'interfaçage avec d'autres circuits. Chaque module possède au moins un régulateur linéaire 5 V et un oscillateur à quartz 16 MHz (ou un résonateur céramique dans certains modèles).
+        Le microcontrôleur est préprogrammé avec un bootloader de façon à ce qu'un programmateur dédié ne soit pas nécessaire.
+
+        Les modules sont programmés au travers d'une connexion série RS-232, mais les connexions permettant cette programmation diffèrent selon les modèles. Les premiers Arduino possédaient un port série, puis l'USB est apparu sur les modèles Diecimila, tandis que certains modules destinés à une utilisation portable se sont affranchis de l'interface de programmation, relocalisée sur un module USB-série dédié (sous forme de carte ou de câble).
+
+        L'Arduino utilise la plupart des entrées/sorties du microcontrôleur pour l'interfaçage avec les autres circuits. Le modèle Diecimila par exemple, possède 14 entrées/sorties numériques, dont 6 peuvent produire des signaux PWM, et 6 entrées analogiques. Les connexions sont établies au travers de connecteurs femelle HE14 situés sur le dessus de la carte, les modules d'extension venant s'empiler sur l'Arduino. Plusieurs sortes d'extensions sont disponibles dans le commerce.
+        </p>
+        <h2>Logiciel</h2>
+        <p>Le logiciel de programmation des modules Arduino est une application Java, libre et multi-plateforme, servant d'éditeur de code et de compilateur, et qui peut transférer le firmware et le programme au travers de la liaison série (RS-232, Bluetooth ou USB selon le module). Il est également possible de se passer de l'interface Arduino, et de compiler et uploader les programmes via l'interface en ligne de commande3.
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Arduino_IDE_-_v0011_Alpha.png" height="250px"/>
+        </b>
+        <p>
+        Le logiciel Arduino, écrit en Java, tourne sous les systèmes d'exploitation Windows, Macintosh et Linux. La plupart des systèmes à microcontrôleurs sont limités à Windows.
+        </p>
+        </p>
+        <h3>Langage</h3>
+        <p>Le langage de programmation Arduino est une implémentation de Wiring, une plateforme de développement similaire, qui est basée sur l'environnement multimédia de programmation.
+        </br>
+        Le langage de programmation utilisé est le C++, compilé avec avr-g++ 4, et lié à la bibliothèque de développement Arduino, permettant l'utilisation de la carte et de ses entrées/sorties. La mise en place de ce langage standard rend aisé le développement de programmes sur les plates-formes Arduino, à toute personne maîtrisant le C ou le C++.
+        </p>
+        <h3>Initiation au langage Arduino</h3>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/GMteyoJ92j0" frameborder="0" allowfullscreen>
+        </iframe>
+        <h3>Commentaires utilisateurs</h3>
+        <ul>
+          <li>
+          Il suffit d'avoir utiliser n'importe quelle autre plateforme propriétaire pour se rendre compte des avantages indéniables du système Arduino : l'alliance entre un hardware et un software opensource garantissent la pérénnité de ce système de développement et lui donne toute sa puissance. Rien de plus désagréable en effet que de voir la plateforme sur laquelle vous développez tourner court...
+        </li>
+
+        <li>En vrac, quelques détails qui font la différence :
+          Le schéma électronique des cartes Arduino est libre d'utilisation et d'adaptation
+        </li>
+        <li>Le logiciel de développement est très facile d'emploi, très efficace tout en étant gratuit et ouvert
+        </li>
+        <li>Langage de programmation est également ouvert, avec de nombreuses librairies disponibles
+        </li>
+        <li>coût d'acquisition des cartes permettant d'envisager des projets multiples sans problème
+        </li>
+        <li>basé sur le langage C, ce qui est une bonne base d'apprentissage pour de nombreux autres langages professionnels.
+        </li>
+      </div>
+
+      <img strc ="https://upload.wikimedia.org/wikipedia/commons/4/42/Arduino_Uno_logo.png"/>
+
+      <div><h3>Sources</h3>
+        <p>
+          <ul>
+            <li><a href="https://fr.wikipedia.org/wiki/Arduino">WikiArduino</a></li>
+            <li><a href="https://www.arduino.cc/">Site officiel Arduno</a></li>
+            <li><a href="https://www.youtube.com/watch?v=GMteyoJ92j0">Tutoriel Arduno sur Youtube</a></li>
+          </ul>
+        </p>
+      </div>
+    </body>
+    </html>
