@@ -1,0 +1,117 @@
+body{
+background-color: #CEECF5;
+}
+
+
+.container {
+  width: 800px;
+  border: 0;
+  padding:0;
+  margin:0 auto;
+  font-family:arial;
+}
+
+p {
+  background-color: #E0F8F1;
+  margin-bottom:15px;
+  padding:25px;
+  color:#0B2161;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 0;
+}
+.banner{
+  width:800px;
+}
+.images {
+  background-color: #E0F8F1;
+  margin-bottom:30px;
+  max-width: 800px;
+}
+
+
+h1{
+  font-family: arial;
+  font-size:  25px ;
+  color:  #81DAF5;
+  background-color: #0A0A2A;
+  text-align: center;
+  padding:8px;
+  border-radius:7px;
+}
+
+h2, h3, h4 {
+  color: white;
+  font-family: arial;
+  background-color: #81DAF5;
+  text-align: center;
+  border-radius:7px;
+  margin: 12px 0 0 0;
+}
+
+p a {
+  font-family: arial;
+  color :#0B3861;
+  margin-top: 4px;
+}
+
+a {
+  font-family:arial;
+  font-size: 13px;
+  color : #0431B4;
+}
+
+a hover{
+  font-family:arial;
+  font-size: 13px;
+  color:blue;
+}
+
+.video {
+  text-align: center;
+  background-color: #E0F8F1;
+  margin-bottom:15px;
+  padding:25px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 0;
+}
+
+ul{
+list-style: none;
+}
+
+
+.logo{
+  text-align: center;
+  margin-left:35% ;
+  margin-right:35%;
+}
+
+
+
+ul{
+  
+  font-family: arial;
+  background-color: white;
+  color:grey;
+  border-radius:10px;
+  text-align: center;
+}
+
+.summary{
+  font-family: arial;
+  background-color: white;
+  color:grey;
+  left:0;
+  border-radius:10px;
+  text-align: left;
+  max-width: 300px;
+}
+
+.summary ol {
+  font-family: arial;
+  background-color: white;
+  color:grey;
+  text-align: left;
+}
